@@ -7,7 +7,7 @@ import { execute } from 'apollo-link';
 import { HttpLink } from 'apollo-link-http';
 
 const link = new HttpLink({
-  uri: 'http://api.githunt.com/graphql'
+  uri: '/graphql'
 });
 
 ReactDOM.render(
